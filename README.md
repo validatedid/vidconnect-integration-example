@@ -12,7 +12,7 @@ This demo covers most of the cases you could be interested to perform as issuer/
 
 3. **VIDcredentials Integration:** ACME university uses **VIDcredentials to request students verifiable presentations** (Large Family cards and Bank credentials). See frontend *Profile* page and how it delegates the request to the backend.
 
-### Try it out
+### Try it out
 
 This demo is part of [this tutorial](https://try.vidchain.net/demo/tutorial). Follow the steps and see the deployed version of the code in this repository at the last step of the tutorial when visiting [ACME University Demo](https://try.vidchain.net/demo/university). 
 
