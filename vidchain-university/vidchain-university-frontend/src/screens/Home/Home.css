@@ -1,0 +1,132 @@
+.subcontent {
+    display:block;
+    background-image:url("../../assets/images/backgroundImage.jpg");
+    background-color:rgba(21,26,53,0.32);
+    background-attachment:unset;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    border-style:none;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    border-radius:0px;
+    width: 100%;
+    position:absolute;
+    opacity: 0.4;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .content{
+    position: relative;
+    z-index: 1;
+    top: 4rem;
+    width:100%;
+    height:493px;
+  }
+  .title {
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    align-self: center;
+    left: 10rem;
+    top: 5rem;
+    width: 30%;
+    position: relative;
+    font-family: TT Norms;
+  	font-style: normal;
+  }
+  .subtitle {
+    font-family: TT Norms;
+	  font-style: normal;
+    font-weight: 300; 
+    font-style: normal; 
+    color: white; 
+    left: 10rem;
+    top: 6rem;
+    position: relative;
+  }
+  .buttonSignIn {
+    bottom: 1rem;
+    left: 60%;
+  } 
+  @media only screen and (max-height: 640px) and (max-width: 768px)  {
+    .title {
+      left: 1rem;
+      top: 0rem;
+      width: 90%;
+    }
+    .subtitle {
+      left: 1rem;
+      top: 0rem;
+      width: 90%;
+    }
+    .buttonSignIn {
+      bottom: 1rem;
+      left: 20%;
+    } 
+    .content{
+      position: relative;
+      z-index: 1;
+      top: 4rem;
+      height:393px;
+    }
+  }
+  @media only screen and (min-height: 640px) and (max-width: 768px) {
+    .title {
+      left: 1rem;
+      top: 1rem;
+      width: 90%;
+    }
+    .subtitle {
+      left: 1rem;
+      top: 1rem;
+      width: 90%;
+    }
+    .buttonSignIn {
+      bottom: 1rem;
+      left: 30%;
+    } 
+    .content{
+      position: relative;
+      z-index: 1;
+      top: 4rem;
+      height:393px;
+    }
+  }
+    /* Tablet */
+    @media only screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+      .title {
+        left: 2rem;
+        top: 4rem;
+        width: 90%;
+      }
+      .subtitle {
+        left: 2rem;
+        top: 5rem;
+        width: 90%;
+      }
+      .buttonSignIn {
+        bottom: 4rem;
+        left: 50%;
+      } 
+      .content{
+        position: relative;
+        z-index: 1;
+        top: 5rem;
+        height:593px;
+      }
+    }
+    @media only screen and (min-width: 1600px) {
+      .content{
+        position: relative;
+        z-index: 1;
+        top: 5rem;
+        height:693px;
+      }
+
+    }
+

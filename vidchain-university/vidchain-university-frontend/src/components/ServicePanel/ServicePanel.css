@@ -1,0 +1,65 @@
+
+  
+  .containerProfile{
+    width: 80%;
+    background: #F2F2F2;
+    box-shadow: 2px 2px 12px #D6D6D6;
+    border-radius: 3px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  .panelTitle {
+    position: absolute;
+    width: 80%;
+    height: 4%;
+    background: #7B788A;
+    border-radius: 2px 2px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .titlePanel {
+    position: relative;
+    color: #FFFFFF;
+    left: 5%
+  }
+  .panelBody {
+    flex-direction: row;
+    display: flex;
+    margin-top: 5rem;
+  }
+  .titleBody {
+    font-weight: bold;
+    font-size: 18px;
+    color: #7B788A;
+    margin-bottom: -1%;
+  }
+  .textBody {
+    font-size: 16px;
+    color: #7B788A;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .panelMainContent {
+    margin-bottom: 3rem;
+  }
+  .panelImageUniversity {
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .panelBody {
+      text-align: center;
+    }
+    .panelMainContent {
+      text-align: center;
+    }
+    .panelImageUniversity {
+      position: relative;
+      margin-top: 3rem;
+    }
+  }

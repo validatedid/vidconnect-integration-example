@@ -1,0 +1,35 @@
+.logoHeader{
+    position: relative;
+    width: 260px;
+    height: 73px;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    left: 5rem;
+  }
+  .headerBackground {
+    position: absolute;
+    background-color:rgba(21,26,53,1);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .powered {
+    position: absolute;
+    left: 80%;
+    color: white;
+    margin-top: 3rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .powered {
+      display: none;
+    }
+    .logoHeader{
+      position: relative;
+      width: 200px;
+      height: 63px;
+      margin-top: 2%;
+      margin-bottom: 1rem;
+      left: 2rem;
+    }
+  }
+  

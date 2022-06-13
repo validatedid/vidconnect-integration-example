@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'TTNorms-Light';
+  src: local('TTNorms'), url(./assets/fonts/TTNorms-Light.otf) format('opentype');
+}
+@font-face {
+  font-family: 'TTNorms';
+  src: local('TTNorms'), url(./assets/fonts/TTNorms-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'TTNorms-Bold';
+    font-weight: 900;
+    src: local('TTNorms-Bols'), url(./assets/fonts/TTNorms-Bold.otf) format('opentype');
+}
+
+body {
+  background:rgba(21,26,53,1);
+  margin: 0;
+  font-family: "TTNorms", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "TTNorms", "Courier New",
+    monospace;
+}

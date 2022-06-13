@@ -1,0 +1,23 @@
+.logoFooter{
+  position: relative;
+  width: 100px;
+  height: 25px;
+}
+.textFooter{
+  font-size: 12px;
+  color: black;
+  width: 150%;
+}
+.footer {
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+@media only screen and (max-width: 767px) {
+  .textFooter{
+
+    margin-left: -50%;
+  }
+}
