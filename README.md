@@ -1,4 +1,4 @@
-# vidchain-integration-example
+# vidconnect-integration-example
 
 Public repository to share as example with VIDcredentials and/or VIDconnect integrators.
 
